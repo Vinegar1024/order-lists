@@ -74,7 +74,7 @@ export default function OrderManagement() {
 
           {/* Statistic Content */}
           <TabsContent value="statistics" className="mt-0">
-            <div className="py-6">
+            <section className="py-6">
 
               {/* Table */}
               <div className="border border-border rounded-lg overflow-hidden">
@@ -162,16 +162,16 @@ export default function OrderManagement() {
                   ))}
                 </div>
               </div>
-            </div>
+            </section>
           </TabsContent>
           
           {/* Lists Content */}
           <TabsContent value="list" className="mt-0">
-            <div className="py-6">
+            <section className="py-6">
               <div className="text-center text-muted-foreground">
                 订单列表内容
               </div>
-            </div>
+            </section>
           </TabsContent>
         </Tabs>
       </div>

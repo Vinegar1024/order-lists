@@ -18,11 +18,11 @@ const DropdownMenuContent = React.forwardRef<
       {...props}
     />
   </DropdownMenuPrimitive.Portal>
-))
-DropdownMenuContent.displayName = DropdownMenuPrimitive.Content.displayName
+));
+DropdownMenuContent.displayName = DropdownMenuPrimitive.Content.displayName;
 
 export {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
-}
+};
