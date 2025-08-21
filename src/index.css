@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dark theme design system */
+    --background: 216 14% 8%;
+    --foreground: 220 15% 88%;
+
+    --popover: 216 14% 10%;
+    --popover-foreground: 220 15% 88%;
+
+    --primary: 220 15% 88%;
+    --primary-foreground: 216 14% 8%;
+
+    --muted: 216 14% 15%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 216 14% 18%;
+    --accent-foreground: 220 15% 88%;
+
+    --border: 216 14% 18%;
+    --input: 216 14% 15%;
+    --ring: 220 15% 88%;
+
+    --radius: 0.5rem;
+
+    /* Table specific colors */
+    --table-header: 216 14% 12%;
+    --table-row-hover: 216 14% 12%;
+    --table-border: 216 14% 18%;
+
+    /* App container */
+    --app-width: 736px;
+    --app-height: 407px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
